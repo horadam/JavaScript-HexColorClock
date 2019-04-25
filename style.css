@@ -1,0 +1,23 @@
+Html {
+    box-sizing: border-box;
+}
+
+*,* ::after, *::before {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+}
+
+h1 {
+    margin:auto;
+    margin-top: 200px;
+    color: rgb(235, 224, 224);
+    font-size:100px;
+    font-family: 'Palatino', serif;
+    font-style:italic;
+    /* border: 3px solid rgb(235, 224, 224);
+    border-radius: 20px;
+    padding: 40px 60px; */
+}
